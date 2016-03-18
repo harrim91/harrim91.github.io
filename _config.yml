@@ -9,7 +9,7 @@
 title: Michael Harrison
 email: harrim91@hotmail.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Software person - former tester now learning development at <a href="http://www.makersacademy.com">Makers Academy</a>.
+  Software person - former tester now learning development at Makers Academy.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: mikeh91
