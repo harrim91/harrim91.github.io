@@ -44,4 +44,4 @@ At this point, the blog looks like this:
 
 Hopefully you're reading this a few weeks down the line and it's a bit more impressive. But right now I'm still trying to figure it out and I just wanted to post something.
 
-SO yeah, next week we're moving onto Ruby, I'm expecting it to be a lot harder, but again I am just really excited to take on the challenge. Also, this coming week is my last at my current job, then I"M FREEEEE to focus on the course full-time. It's just a great feeling knowing I'm going onto something better.
+SO yeah, next week we're moving onto Ruby, I'm expecting it to be a lot harder, but again I am just really excited to take on the challenge. Also, this coming week is my last at my current job, then I'M FREEEEE to focus on the course full-time. It's just a great feeling knowing I'm going onto something better.
