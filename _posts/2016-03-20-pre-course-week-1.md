@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Hello, World! - Pre-course week 1"
-date:   2016-03-20 11:45:00 +0000
-category: MakersAcademy
-tags: MakersAcademy,PreCourse, Git, CommandLine
+title: "Hello, World! - Pre-course week 1"
+date: 2016-03-20 11:45:00 +0000
+tags: MakersAcademy PreCourse
 published: true
 ---
 
