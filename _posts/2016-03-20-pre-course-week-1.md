@@ -6,6 +6,8 @@ tags: MakersAcademy PreCourse
 published: true
 ---
 
+:+1:
+
 It's a really good feeling to figure out something you really like doing, and to take a positive step to bring that thing more into your life.
 
 Last summer at some point, during a conversation about how much I've always liked wooden spoons and how great it would be to make them, I realised that there's no reason I shouldn't, and living in London probably mean it was entirely possible. So I went and took a lesson with [Barn the Spoon](http://www.barnthespoon.com/) at [The Greenwood Guild](http://www.thegreenwoodguild.com), and now I go to Spoon Club every Thursday and my flat is full of spoons, butter spreaders and wood shavings.

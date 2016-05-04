@@ -17,3 +17,7 @@ github_username:  harrim91
 
 # Build settings
 markdown: kramdown
+
+#Ruby Gems
+gems:
+  - jemoji
