@@ -2,7 +2,7 @@
 layout: post
 title: "Hello, World! - Pre-course week 1"
 date: 2016-03-20 11:45:00 +0000
-tags: MakersAcademy PreCourse
+tags: MakersAcademy
 published: true
 ---
 
@@ -27,13 +27,13 @@ This is exciting for lots of reasons:
 
 Awesome, huh?
 
-I was offered also actually offered the chance to learn development at my current job, but turned it down because I figured that if I could complete the course at Makers, it was going to give me better learning opportunities, better career prospects, and do it a lot faster. So I decided against it, and now the shit is hitting the fan and I feel like this:
+I was offered also actually offered the chance to learn development at my current job, but turned it down because I figured that if I could complete the course at Makers, it was going to give me better learning opportunities, better career prospects, and do it a lot faster. So I decided against it, and now the poop is hitting the fan and I feel like this:
 
 ![Explosion](/assets/explosion.gif)
 
 So what have I done this week?
 
-The week started on Monday (WHAT?!) and we had the pre-course launch, which was basically a presentation about what to expect from Makers and what they would expect from us, and then we all went to the pub. Good start.
+The week started on Monday (obvs.) and we had the pre-course launch, which was basically a presentation about what to expect from Makers and what they would expect from us, and then we all went to the pub. Good start.
 
 On Tuesday we got an email with the learning material and challenges, and now I dream about the word grep and writing good commit messages. This week the focus was on getting to grips with git and the command line. I have worked a little with both in the past, but I feel like I learned A LOT this week. The challenges we got from Makers were challenging (as challenges tend to be) and massively useful, but without being too intense and impossible. But obviously it's week 1, of the pre-course and it's vaguely familiar territory for me. I expect that this time next week I will be a trembling mess as we move onto the serious business of Ruby.
 
