@@ -1,10 +1,9 @@
 ---
 layout: page
-title: CV
+title: Michael Harrison
 permalink: /cv/
 ---
 
-# Michael Harrison
 [Email](mailto:harrim91@hotmail.co.uk) | [LinkedIn](https://uk.linkedin.com/in/mharrison3) | [Twitter](http://www.twitter.com/mikeh91)
 
 Junior Web Developer & Makers Academy Graduate with a background in QA, Mathematics & Philosophy.
