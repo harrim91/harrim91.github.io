@@ -45,7 +45,7 @@ On our first day at Makers, Ben (our coach) asked us "Who came to Makers to lear
 
 "That was a bit of a lie", he announced.
 
- The obivous thing you learn is the technical skills. But that's just the subject matter of the course, you could change one language or framework for another and get the same learning outcomes.
+ The obvious thing you learn is the technical skills. But that's just the subject matter of the course, you could change one language or framework for another and get the same learning outcomes.
 
  It's a bit like studying philosophy. It's kind of frustrating when people ask you *"What is philosophy? It's like the meaning of life and stuff, right?"* And you try and explain what metaphysics is, and it seems to have no practical use in any conceivable situation.
 
@@ -58,7 +58,7 @@ On our first day at Makers, Ben (our coach) asked us "Who came to Makers to lear
 
  - How to deal with getting stuck - I feel like I have the skills to get a grip on any technical problem. I know how to explain the problem I'm having. I know how to ask good questions. I have confidence to test hypotheses because I know at worst it will to give me new insights to a problem. I know when I'm getting tunnel vision and just need to take a break. And I have confidence to keep plugging away, because I know I'll get there.
 
- - How to work as a professional developer - at Makers you work in an agile environment, you practice the latest inductry standard practices, and you are taught to taking pride in your work and not to comporomise on quality: *Coding isn't just a hobby; it's my profession.*  
+ - How to work as a professional developer - at Makers you work in an agile environment, you practice the latest industry standard practices, and you are taught to taking pride in your work and not to compromise on quality: *Coding isn't just a hobby; it's my profession.*  
  [Extreme Programming](http://www.extremeprogramming.org) and [Software Craftsmanship](manifesto.softwarecraftsmanship.org) are two related concepts that you will live and breath at Makers. These aren't solely about the code you write; they offer guidance on how professional software developers should aim to conduct themselves as a member of a development team, and as part of the wider tech community.
 
 
@@ -73,7 +73,7 @@ One thing I struggled most with at first when working in a group was the idea of
 
 Another real benefit of Makers on a personal level is Dana, the Chief Joy Officer. She really is the heartbeat and the soul of the place. I think her primary job is to distract you from working as much as she possibly can, but she has so much time for everybody, so much sage advice and I really can't explain what an asset she is to Makers.
 
-Everyday she facilitates mindfulness mediation, and twice a week she leads yoga. Both of these are things I'd been interested in prior to Makers, and were an attraction when applying to the course. But like, I didn't realise how great it would be. With so much going on throughout the day, it's theraputic to just take time to sit and focus on the present moment. You just sit and objectively observe and accept your current thoughts, feeling and sensations without attaching any value judgement to it. It can be quite hard, but I think my brain would have regularly exploded without it, and I now find it easier to relax and to turn off.
+Everyday she facilitates mindfulness mediation, and twice a week she leads yoga. Both of these are things I'd been interested in prior to Makers, and were an attraction when applying to the course. But I didn't realise **how** great it would be. With so much going on throughout the day, it's theraputic to just take time to sit and focus on the present moment. You just sit and objectively observe and accept your current thoughts, feeling and sensations without attaching any value judgement to it. It can be quite hard, but I think my brain would have regularly exploded without it, and I now find it easier to relax and to turn off.
 
 Yoga has a similarly theraputic effect, and was one of the biggest surprises for me. I wasn't expecting to enjoy it half as much as meditation, but I really, really love it. A big part of it for me is the self-dicipline it teaches. It's hard (really hard), and a lot of the time I just want to collapse on the floor. It takes a lot of focus to hold a pose for an extended period of time, but I love the intense feeling that comes with trying to find that focus, and it's good to know that I'm doing something difficult for my own good. Learning to code is difficult, but not as difficult as your third chair pose of the day, and the gratification isn't as instant either. Another thing about yoga is the effect it has on your meditation. After an intense hour of physical exercise, your body just relaxes, you don't notice any physical niggles and you're able focus your mind so much more. If I can master my physical body, then my mind is easy, right? The balance between body and mind is often overlooked, with one favoured over the other, but getting the balance is super important and yoga help you do that.
 
