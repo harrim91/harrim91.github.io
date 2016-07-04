@@ -26,7 +26,7 @@ Your initial reaction is like :confused: :neutral_face:
 Then you and your pair-partner tackle the problem :raised_hands: :tada: :beers:  
 Then you move onto the next problem :anguished: :confounded:  
 
-Over the course of a five-day week, the number of problems you overcome grows, and the number of things you learn growns even more. Each new problem can leave you feeling like you don't know much. But at the end of the week, you look back to Monday morning, and realise that you learned a hell of a lot.
+Over the course of a five-day week, the number of problems you overcome grows, and the number of things you learn grows even more. Each new problem can leave you feeling like you don't know much. But at the end of the week, you look back to Monday morning, and realise that you learned a hell of a lot.
 
 Then you go and spend the weekend making an application by yourself, which really, really compounds that knowledge.
 
