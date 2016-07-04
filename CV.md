@@ -28,6 +28,7 @@ I learned so much in my QA role and it inspired me to become a developer. I was 
 
 Code Examples
 ---
+
 #### [Happy Belly](http://www.github.com/harrim91/allergy_scanner_frontend)
 Mobile app that allows the user to select a diet profile (e.g. nut allergy, lactose intolerance), and then scan the barcode on a food product to see if they can eat it.
 
