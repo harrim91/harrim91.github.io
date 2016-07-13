@@ -6,14 +6,16 @@ permalink: /cv/
 
 [Email](mailto:harrim91@hotmail.co.uk) &#124; [LinkedIn](https://uk.linkedin.com/in/mharrison3) &#124; [Twitter](http://www.twitter.com/mikeh91)
 
-Junior Web Developer & Makers Academy Graduate with a background in QA, Mathematics & Philosophy.
+Web Developer with a background in QA, Mathematics & Philosophy.
 
-I love solving problems, and I love making things. I have a demonstrable desire to learn, to push myself towards best practices, and to write the best, cleanest, most throughly tested code I possibly can.
+I love solving problems, and I love making things. I have a demonstrable desire to learn, to push myself towards best practices, and to write the best, cleanest, most thoroughly tested code I possibly can.
 
 I'm now looking for my first role as a developer in a company which has similar commitments to me. I care about craftsmanship, and I want to work with craftsmen who will challenge me and facilitate my learning.
 
 Skills
 ---
+#### Quick Learner
+In 12 weeks I have built a working proficiency in Ruby and JavaScript, and frameworks such as Angular and Rails. Much of this learning has been self-led – I am confident in my abilities and getting stuck doesn’t phase me.
 
 #### Analytic
 My undergrad and postgrad studies in Mathematics and Philosophy have shaped the way I think and given me a strong ability to break problems down and to understand and use complex ideas. 
@@ -21,24 +23,19 @@ My undergrad and postgrad studies in Mathematics and Philosophy have shaped the 
 #### Testing
 I spent almost 2 years working as a QA Analyst, manually writing and executing feature and regression tests on a monolithic system. This has given me a real commitment to well tested, well written code.
 
-#### I want do things the right way
-I learned so much in my QA role and it inspired me to become a developer. I was offered a job as a junior visual basic developer at the company, but turned it down in order to attend Makers Academy and get a grounding in doing OOP and Agile TDD properly.
-
-
-Code Examples
+Projects
 ---
-
 #### [Happy Belly](http://www.github.com/harrim91/allergy_scanner_frontend)
 Mobile app that allows the user to select a diet profile (e.g. nut allergy, lactose intolerance), and then scan the barcode on a food product to see if they can eat it.
 
 Built in less than two weeks using Ionic/Angular. The app has a [decoupled rails-api backend](http://www.github.com/harrim91/allergy_scanner_backend)
 
-#### [rails_cleaner](http://www.github.com/harrim91/rails_cleaner)
+#### [Rails Cleaner](http://www.github.com/harrim91/rails_cleaner)
 Ruby Gem with command line executables that deletes all of those annoying unused auto-generated coffee/scss files from your rails projects.
 
-Pure Ruby, built in a week as a group project at Makers.
+Pure Ruby, built in a week as a group project at Makers. Available on [RubyGems](https://rubygems.org/gems/rails_cleaner)
 
-#### [Instascam](http://www.github.com/harrim91/instagram_challenge)
+#### [Instagram Clone](http://www.github.com/harrim91/instagram_challenge)
 Instagram Clone built using Rails in a weekend. The website is available on [Heroku](https://limitless-cliffs-63599.herokuapp.com/). (Please excuse the Comic Sans...)
 
 Education
@@ -46,24 +43,22 @@ Education
 
 #### Makers Academy (April-June 2016)
 
-- Fuelled my passion for beautiful code
-- Improved independent learning skills
 - OOP, TDD, SOLID, MVC, DDD
-- Software Craftsmanship
-- Ruby, Rails, Javascript, Angular.js
+- Software Craftsmanship & XP
+- Ruby, Rails, Sinatra, JavaScript, Angular.js, Ionic
 - RSpec, Capybara, Jasmine, Karma, Protractor
 
-#### Open University (January 2013-October 2015)
+#### Open University (January 2013-October 2013)
 
 - Postgraduate Certificate in Philosophy
 - Pass (68%)
-- Political Philosophy, with a particular interests in Nationality, Citizenship and Multiculturalism and Distributive Justice.
-- Part time study whilst working full time.
+- Political Philosophy, with particular interests in Nationality, Citizenship and Multiculturalism and Distributive Justice.
+- Part-time study whilst working full-time.
 
 #### University of York (October 2009-July 2012)
 
 - BSc Mathematics & Philosophy
-- Third Class Honours
+- Third-Class Honours
 - Did lots of other cool stuff, like facilitating live music on campus, and organizing charity hitch hikes across Europe.
 
 ## Experience
@@ -80,7 +75,10 @@ Education
 
 ## Interests
 
-Apart from code, I also love making things out of wood, playing guitar, going for long walks, and practicing yoga.
+- Making things out of wood
+- Playing guitar
+- Going for long walks
+- Practicing yoga
 
 ## Product Reviews from Pair Partners
 
@@ -88,6 +86,6 @@ Apart from code, I also love making things out of wood, playing guitar, going fo
 
 `Michael is very, very, very intelligent and is a problem solver. He is always willing to take the time to explain things and is a good teacher.`
 
-`He has crazy concentration. When working on a problem, he is so focussed and driven until he achieves his goal.`
+`He has crazy concentration. When working on a problem, he is so focused and driven until he achieves his goal.`
 
 `There is a romantic intensity to everything he does, from coding, to playing guitar, to talking about his girlfriend or wooden spoons.`

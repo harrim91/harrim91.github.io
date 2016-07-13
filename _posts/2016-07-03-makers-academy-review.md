@@ -47,7 +47,7 @@ On our first day at Makers, Ben (our coach) asked us "Who came to Makers to lear
 
  The obvious thing you learn is the technical skills. But that's just the subject matter of the course, you could change one language or framework for another and get the same learning outcomes.
 
- It's a bit like studying philosophy. It's kind of frustrating when people ask you *"What is philosophy? It's like the meaning of life and stuff, right?"* And you try and explain what metaphysics is, and it seems to have no practical use in any conceivable situation.
+ It's a bit like studying philosophy. It's kind of frustrating when people ask you *"What is philosophy? It's like the meaning of life and stuff, right?"* And you try and explain what metaphysics is, and they start to glaze over because it seems to have no practical use in any conceivable situation.
 
  *But that's not the point of studying philosophy.* Studying philosophy teaches you *how to think*. It teaches you to handle and use complex abstract ideas, it teaches you to deconstruct other people's complex ideas and arguments, and how to form and articulate your own. You might be an expert in metaphysics, but you can have a philosophy of anything; the subject matter isn't what's important -it's the skillset that you can apply to it. In studying philosophy, you build skills that allow you to engage in philosophical discourse on any subject, and those skills transfer into all walks of life.
 
@@ -77,7 +77,7 @@ Everyday she facilitates mindfulness mediation, and twice a week she leads yoga.
 
 Yoga has a similarly theraputic effect, and was one of the biggest surprises for me. I wasn't expecting to enjoy it half as much as meditation, but I really, really love it. A big part of it for me is the self-dicipline it teaches. It's hard (really hard), and a lot of the time I just want to collapse on the floor. It takes a lot of focus to hold a pose for an extended period of time, but I love the intense feeling that comes with trying to find that focus, and it's good to know that I'm doing something difficult for my own good. Learning to code is difficult, but not as difficult as your third chair pose of the day, and the gratification isn't as instant either. Another thing about yoga is the effect it has on your meditation. After an intense hour of physical exercise, your body just relaxes, you don't notice any physical niggles and you're able focus your mind so much more. If I can master my physical body, then my mind is easy, right? The balance between body and mind is often overlooked, with one favoured over the other, but getting the balance is super important and yoga help you do that.
 
-It's been a really positive feeling to see myself progressing personally so so many levels (particularly physically with the yoga, I have to admit). I'm a better, more open person, and more receptive to criticism. I've made incredible friends, people who I'm possibly going to know for the rest of my life/career. I feel my mind and body are both stronger and more balanced, and I generally just feel happy and confident, and excited to move forward with my life.
+It's been a really positive feeling to see myself progressing personally on so many levels (particularly physically with the yoga, I have to admit). I'm a better, more open person, and more receptive to criticism. I've made incredible friends, people who I'm possibly going to know for the rest of my life/career. I feel my mind and body are both stronger and more balanced, and I generally just feel happy and confident, and excited to move forward with my life.
 
-## Summary
+## TL;DR
 I would recommend the course to anybody. :100:
