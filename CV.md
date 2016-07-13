@@ -14,6 +14,7 @@ I'm now looking for my first role as a developer in a company which has similar 
 
 Skills
 ---
+
 #### Quick Learner
 In 12 weeks I have built a working proficiency in Ruby and JavaScript, and frameworks such as Angular and Rails. Much of this learning has been self-led – I am confident in my abilities and getting stuck doesn’t phase me.
 
@@ -25,6 +26,7 @@ I spent almost 2 years working as a QA Analyst, manually writing and executing f
 
 Projects
 ---
+
 #### [Happy Belly](http://www.github.com/harrim91/allergy_scanner_frontend)
 Mobile app that allows the user to select a diet profile (e.g. nut allergy, lactose intolerance), and then scan the barcode on a food product to see if they can eat it.
 
