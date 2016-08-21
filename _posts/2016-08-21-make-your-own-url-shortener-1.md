@@ -2,7 +2,7 @@
 layout: post
 title: "TDD your own URL Shortener with Sinatra"
 date: 2016-08-21 16:00:00 +0000
-tags: Ruby, Tutorial, MVC, TDD
+tags: ruby, tutorial, mvc, tdd
 published: true
 ---
 
