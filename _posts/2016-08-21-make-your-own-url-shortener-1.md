@@ -2,7 +2,7 @@
 layout: post
 title: "TDD your own URL Shortener with Sinatra"
 date: 2016-08-21 16:00:00 +0000
-tags: ruby, tutorial, mvc, tdd
+tags: ruby, sinatra, tutorial, mvc, tdd
 published: true
 ---
 
@@ -31,7 +31,7 @@ Second, I didn't want to use Rails, as this is only going to be a simple applica
 
 ## Setting up
 
-First off, you're going to need to create a new directory for the project. Then, as with any Ruby project, the first thing we're going to want to do is set up a Gemfile to manage our dependencies. Assuming you've already got Ruby and Bundler installed, run `bundle init`
+First off, you're going to need to create a new directory for the project. Then, as with any Ruby project, the first thing we're going to want to do is set up a Gemfile to manage our dependencies. Assuming you've already got Ruby and Bundler installed, run `$ bundle init`
 
 Inside of the Gemfile that gets created, we want to set the Ruby version, and install Sinatra and our test frameworks.
 
@@ -57,4 +57,46 @@ end
 	{% endhighlight %}
 </figure>
 
-I also installed [Shotgun](https://github.com/rtomayko/shotgun), which allows you to keep a server running without having to manually restart whenever you change a file.
+We're going to use [RSpec](https://www.relishapp.com/rspec) as our test framework, and use [Capybara](https://github.com/jnicklas/capybara) with [Selenium WebDriver](https://rubygems.org/gems/selenium-webdriver) to run our feature tests.
+
+I also want to install [Shotgun](https://github.com/rtomayko/shotgun), which allows you to keep a server running without having to manually restart whenever you change a file.
+
+Run `$ bundle install` to install all of that.
+
+With everything now installed, we can generate a lot of the files we need to get started via the rspec-sinatra gem. Run `$ rspec-sinatra init --app URLShortener app/app.rb`
+
+This should generate a number of files:
+
+- `app/app.rb` - this is the main entry point for our application
+- `spec/spec_helper.rb` - this is used to configure rspec
+- `config.ru` - this is used to start our server
+
+We also want to create a `.rspec` file, which give us some more config options for rspec, including formatting the output.
+
+<figure>
+	<figcaption>.rspec</figcaption>
+	{% highlight plaintext %}
+--color -fd
+--require spec_helper
+	{% endhighlight %}
+</figure>
+
+So now, our file tree should look like this:
+
+<figure>
+	{% highlight sh %}
+$ tree
+.
+├── Gemfile
+├── Gemfile.lock
+├── app
+│   └── app.rb
+├── config.ru
+└── spec
+    └── spec_helper.rb
+	{% endhighlight %}
+</figure>
+
+If we run `$ shotgun`, then you should see the server start up. If you visit [localhost:9393](http://localhost:9393) in the browser, you should see a nice message from your app.
+
+Now we're all set up and ready to write some feature tests.
