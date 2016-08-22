@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TDD your own URL Shortener with Sinatra: Setting Up"
+title: "TDD your own URL Shortener: Setting Up with Sinatra and Capybara"
 date: 2016-08-21 16:00:00 +0000
 tags: ruby, sinatra, tutorial, mvc, tdd
 published: true
@@ -99,4 +99,4 @@ $ tree
 
 If we run `$ shotgun`, then you should see the server start up. If you visit [localhost:9393](http://localhost:9393) in the browser, you should see a nice message from your app.
 
-Now we're all set up and ready to write some feature tests.
+Now we're all set up and ready to write some feature tests and write some code, which we will do in the next post.
