@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TDD your own URL Shortener with Sinatra"
+title: "TDD your own URL Shortener with Sinatra: Setting Up"
 date: 2016-08-21 16:00:00 +0000
 tags: ruby, sinatra, tutorial, mvc, tdd
 published: true
@@ -14,7 +14,7 @@ _"Life is way too short to type out entire URLs . No-one on the internet has eve
 
 ## The Plan
 
-In this blog post, we're going to create a web application that does the following:
+In this tutorial, we're going to create a web application that does the following:
 
 * Takes a long URL and generates a short URL, storing the short URL and long URL together in a persistant data store.
 * Redirects users to the long URL when the short URL is visited.
@@ -25,7 +25,7 @@ I've been working with JS a lot recently, particularly Node, but I decided to do
 
 There are a number of reasons for this.
 
-First, this post is intended as an introduction to building web applications using the TDD and the MVC architectural pattern. I think for these purposes, Ruby is easier to read and write and test than JavaScript, and easier to configure than Node. We'll cut to the juicy important stuff faster, and spend less time worrying about the code, and more about what it's doing.
+First, this tutorial is intended as an introduction to building web applications using the TDD and the MVC architectural pattern. I think for these purposes, Ruby is easier to read and write and test than JavaScript, and easier to configure than Node. We'll cut to the juicy important stuff faster, and spend less time worrying about the code, and more about what it's doing.
 
 Second, I didn't want to use Rails, as this is only going to be a simple application and Rails felt like overkill. Also, whereas Node requires too much configuration, for the purposes of learning, I think Rails takes too much out of our hands. Rails magic is nice when you know what it's doing, but it assumes that you already understand it's conventions. If you're new to MVC, then Sinatra is better to learn with.
 
