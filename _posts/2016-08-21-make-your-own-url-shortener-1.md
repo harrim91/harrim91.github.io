@@ -16,10 +16,10 @@ _"Life is way too short to type out entire URLs . No-one on the internet has eve
 
 In this tutorial, we're going to create a web application that does the following:
 
-* Takes a long URL and generates a short URL, storing the short URL and long URL together in a persistant data store.
-* Redirects users to the long URL when the short URL is visited.
-* Does not allow users to submit an invalid URL
-* Checks if the URL has already been stored and does not create duplicate entries.
+- Takes a long URL and generates a short URL, storing the short URL and long URL together in a persistant data store.
+- Redirects users to the long URL when the short URL is visited.
+- Does not allow users to submit an invalid URL
+- Checks if the URL has already been stored and does not create duplicate entries.
 
 I've been working with JS a lot recently, particularly Node, but I decided to do this using Ruby, and the [Sinatra](https://github.com/sinatra/sinatra) web framework.
 
@@ -99,4 +99,4 @@ $ tree
 
 If we run `$ shotgun`, then you should see the server start up. If you visit [localhost:9393](http://localhost:9393) in the browser, you should see a nice message from your app.
 
-Now we're all set up and ready to write some feature tests and write some code, which we will do in the next post.
+Now we're all set up and ready to write some feature tests and write some code, which we will do in the [next post](2016/08/21/make-your-own-url-shortener-1.html).
