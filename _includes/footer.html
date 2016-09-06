@@ -1,37 +1,33 @@
-<!-- <footer class="site-footer">
+<footer class>
+  <div class="container">
+    <div class="row">
 
-  <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <div class="col-md-6 footer-right">
+        <ul class="list-inline footer-links">
+          {% for profile in site.social_media %}
+            <li>
+              {% include social-media-icon.html profile=profile %}
+            </li>
+          {% endfor %}
+          <li>
+            <a rel="nofollow" href="mailto:{{site.email}}" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
+          </li>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      
+      <div class="col-md-6 footer-left">
+        <p>
+          All content copyright {{site.title}} &copy; {{site.time | date: "%Y"}}
+        </p>
+        <p>
+          Designed and built by Michael Harrison
+        </p>
+        <p>
+          Powered by <a href="http://www.jekyllrb.com">Jekyll</a>
+        </p>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
-
   </div>
-
-</footer>
- -->
+</footer> 

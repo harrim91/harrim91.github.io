@@ -3,24 +3,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }} &#8209; {% endif %} {{ site.title | escape }}</title>
+  <title>{% if page.title %}{{ page.title | escape }} &#8209; {% endif %}{{ site.title | escape }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{site.url}}">
-  <meta property="og:image" content="/assets/avatar.jpg">
+  <meta property="og:image" content="/public/images/avatar.jpg">
 
-  <!-- Latest compiled and minified CSS - uses Bootswatch Readable theme: http://bootswatch.com/readable/-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" />
 
-  <!-- <link rel="stylesheet" href="http://bootswatch.com/readable/bootstrap.min.css"> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" />
 
   <!-- jQuery -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="/lib/jquery/js/jquery-3.1.0.min.js"></script>
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Compiled and minified Bootstrap JS -->
+  <script type="text/javascript" src="/lib/bootstrap/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="/public/css/main.css">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
 </head>

@@ -12,7 +12,7 @@ It's a really good feeling to figure out something you really like doing, and to
 
 Last summer at some point, during a conversation about how much I've always liked wooden spoons and how great it would be to make them, I realised that there's no reason I shouldn't, and living in London probably mean it was entirely possible. So I went and took a lesson with [Barn the Spoon](http://www.barnthespoon.com/) at [The Greenwood Guild](http://www.thegreenwoodguild.com), and now I go to Spoon Club every Thursday and my flat is full of spoons, butter spreaders and wood shavings.
 
-![Spoons](/assets/spoons.jpg)
+![Spoons](/public/images/spoons.jpg)
 
 About 18 months ago I sort of fell into a job in the technology industry as a software tester, and over the last year, I've found I've been increasingly interested in how the code works.
 
@@ -29,7 +29,7 @@ Awesome, huh?
 
 I was offered also actually offered the chance to learn development at my current job, but turned it down because I figured that if I could complete the course at Makers, it was going to give me better learning opportunities, better career prospects, and do it a lot faster. So I decided against it, and now the poop is hitting the fan and I feel like this:
 
-![Explosion](/assets/explosion.gif)
+![Explosion](/public/images/explosion.gif)
 
 So what have I done this week?
 
@@ -41,7 +41,7 @@ Also, I decided to start this blog. I was intending on doing one and was going t
 
 At this point, the blog looks like this:
 
-![Blog Week 1](/assets/blog-1.png)
+![Blog Week 1](/public/images/blog-1.png)
 
 Hopefully you're reading this a few weeks down the line and it's a bit more impressive. But right now I'm still trying to figure it out and I just wanted to post something.
 
