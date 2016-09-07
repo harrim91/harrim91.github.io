@@ -1,9 +1,30 @@
 body {
   padding-top: 70px;
+  min-width: 350px;
+  width: auto !important;
+}
+
+.post-content ul {
+	list-style-position: inside;
+}
+
+.img-container {
+	text-align: center;
+	margin: 15px;
+	overflow: auto;
+}
+
+.img-container .thumbnail {
+	display: inline-block;
+	float: none;
+}
+
+.img-container .thumbnail img {
+	max-height: 250px;
+	max-width: 500px;
 }
 
 .btn-outline {
-  margin-top: 15px;
   border: solid 2px #333;
   font-size: 20px;
   color: #333;
@@ -44,6 +65,23 @@ footer .footer-left p {
 }
 
 @media (max-width: 768px) {
+	.post p {
+		clear: both;
+	}
+
+	.img-container {
+		float: none;
+	}
+
+	.img-container .thumbnail img {
+		max-width: 250px;
+	}
+
+	footer {
+		padding: 5px;
+		padding-bottom: 15px;
+	}
+
 	footer .footer-right {
 		float: none;
 		text-align: center;
@@ -58,5 +96,9 @@ footer .footer-left p {
 		height: 30px;
 		font-size: 12px;
 		line-height: 27px;
+	}
+
+	.footer-links {
+		padding-top: 25px;
 	}
 }

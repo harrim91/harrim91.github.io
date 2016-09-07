@@ -10,16 +10,21 @@
               {% include social-media-icon.html profile=profile %}
             </li>
           {% endfor %}
-          <li>
-            <a rel="nofollow" href="mailto:{{site.email}}" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
-          </li>
+
+          {% if site.show_email_in_footer %}
+            <li>
+              <a rel="nofollow" href="mailto:{{site.email}}" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
+            </li>
+          {% endif %}
         </ul>
       </div>
       
       <div class="col-md-6 footer-left">
-        <p>
-          All content copyright {{site.title}} &copy; {{site.time | date: "%Y"}}
-        </p>
+        {% if site.show_copyright_in_footer %}
+          <p>
+            All content copyright {{site.title}} &copy; {{site.time | date: "%Y"}}
+          </p>
+        {% endif %}
         <p>
           Designed and built by Michael Harrison
         </p>

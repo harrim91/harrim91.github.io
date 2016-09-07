@@ -21,7 +21,9 @@ gems:
   - jemoji
 
 #Custom config
-social_media:
+show_email_in_footer: true
+show_copyright_in_footer: true
+social_media: #add up to 5 to be displayed in footer (6 if email not shown)
   github:
     url: "http://www.github.com/"
     username: "harrim91"
