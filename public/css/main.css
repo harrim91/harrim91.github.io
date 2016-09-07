@@ -4,6 +4,14 @@ body {
   width: auto !important;
 }
 
+.page-header {
+	margin: 0 10px 20px
+}
+
+.post-list {
+	padding: 0 20px;
+}
+
 .post-content ul {
 	list-style-position: inside;
 }
@@ -85,6 +93,7 @@ footer .footer-left p {
 	footer .footer-right {
 		float: none;
 		text-align: center;
+		height: 95px;
 	}
 
 	footer .footer-left {
