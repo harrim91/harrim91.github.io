@@ -1,29 +1,33 @@
 <header>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+  <div class="container">
+    {% if page.header_image %}
+      <img class="header-img img-responsive wow fadeIn" src="public/images/{{page.header_image}}" alt />
+    {% endif %}
+    <h1 class="header-title">
+      {% if page.header_icon %}
+        <i class="fa {{page.header_icon}} fa-fw"></i>
+      {% endif %}
 
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">{{site.title}}</a>
-      </div>
+      {% if page.title %}
+        {{ page.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          {% assign sorted_pages = site.pages | sort: 'navbar_order' %}
-          {% for my_page in sorted_pages %}
-            {% if my_page.title %}
-            <li class="page-scroll">
-              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>  
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+    </h1>
+    {% if page.permalink == "/" %}
+      <hr class="hr-code hr-code-light">
+      <h4 class="header-subtitle">Ruby &amp; Javascript Developer</h4>
+
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <p>Michael is a junior web developer and recent graduate from Makers Academy.</p>
+          <p>Something else about Michael.</p>
+        </div>
       </div>
-    </div>
-  </nav>
+      <a href="#contact" class="btn btn-lg">
+        <i class="fa fa-fw fa-envelope-o"></i>Contact
+      </a>
+    {% endif %}
+  </div>
 </header>

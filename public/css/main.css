@@ -1,11 +1,146 @@
+/*
+navy: #00293c;
+blue: #1e656d;
+ivory: #f1f3ce;
+red: #f62a00;
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans';
+
 body {
-  padding-top: 70px;
   min-width: 350px;
   width: auto !important;
+  background-color: #f1f3ce;
+  font-family: 'Droid Sans', sans-serif;
+  color: #00293c;
 }
 
-.page-header {
-	margin: 0 10px 20px
+.navbar-default {
+	background-color: #00293c;
+	border: none;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 22px;
+}
+
+.navbar-default .navbar-nav,
+.navbar-default .navbar-brand {
+	color: #f1f3ce;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: inherit;	
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:hover {
+	color: #f62a00;	
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #f1f3ce;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.header-title {
+	margin: 0 10px 20px;
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	background-color: #f62a00;
+	color: #f1f3ce;
+}
+
+header .container {
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+header img {
+	margin: 25px auto 20px;
+	border-radius: 100%;
+	height: auto;
+}
+
+header .btn {
+	color: #f1f3ce;
+	background-color: #f62a00;
+	border-color: #f1f3ce;
+	border-width: 2px;
+	margin-bottom: 5px;
+}
+
+header .btn:hover {
+	color: #f62a00;
+	background-color: #f1f3ce;
+	border-color: #f62a00;
+	border-width: 2px;
+}
+
+hr.hr-code {
+	margin: 25px auto 30px;
+  padding: 0;
+  max-width: 310px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+}
+
+hr.hr-code:after {
+	content: "\f121";
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  padding: 0 .25em;
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
+hr.hr-code-light:after {
+	background-color: #f62a00;
+	color: #f1f3ce;
+}
+
+hr.hr-code-dark:after {
+	background-color: #f1f3ce;
+	color: #00293c;
+}
+
+.portfolio-card {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.portfolio-card .btn {
+	margin-top: 10px;
+	color: #f1f3ce;
+	background-color: #00293c;
+	border-color: #00293c;
+	border-width: 2px;
+}
+
+.portfolio-card .btn:hover {
+	color: #00293c;
+	background-color: #f1f3ce;
+	border-color: #00293c;
+	border-width: 2px;
+}
+
+.img-portfolio {
+	background-color: #1e656d;
+	border-radius: 100%;
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.blog-index-container {
+	margin-top: 70px;
 }
 
 .post-list {
@@ -32,36 +167,28 @@ body {
 	max-width: 500px;
 }
 
-.btn-outline {
-  border: solid 2px #333;
-  font-size: 20px;
-  color: #333;
-  background: 0 0;
-  transition: all .3s ease-in-out;
-}
-
-.btn-social {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 2px solid #333;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 20px;
-  line-height: 45px;
-}
 
 footer {
-	background-color: #f8f8f8;
+	background-color: #00293c;
 	padding: 30px;
 	margin-top: 30px;
-	box-shadow: 0 500px 0 500px #f8f8f8;
+	box-shadow: 0 500px 0 500px #00293c;
+}
+
+footer a {
+	color: #f1f3ce;
+}
+
+footer a:hover {
+	color: #f62a00;
+	text-decoration: none;
 }
 
 footer .footer-right {
 	height: 75px;
 	float: right;
 	text-align: right;
+	color: #1e656d;
 }
 
 footer .footer-left {
@@ -70,9 +197,43 @@ footer .footer-left {
 
 footer .footer-left p {
 	font-size: 12px;
+	color: #1e656d;
+}
+
+footer .btn-outline {
+  border: solid 2px #1e656d;
+  font-size: 20px;
+  color: #f1f3ce;
+  background: 0 0;
+  transition: all .3s ease-in-out;
+}
+
+footer .btn-social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #1e656d;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+footer .btn-social:hover {
+	color: #f62a00;
 }
 
 @media (max-width: 768px) {
+
+	header .container {
+		padding-top: 70px;
+	}
+
+	header .header-icon {
+		font-size: 150px;
+		margin: 0 auto 20px;
+	}
+
 	.post p {
 		clear: both;
 	}
@@ -100,14 +261,15 @@ footer .footer-left p {
 		text-align: center;
 	}
 
-	.btn-social {
+	footer .btn-social {
 		width: 30px;
 		height: 30px;
 		font-size: 12px;
 		line-height: 27px;
 	}
 
-	.footer-links {
+	footer .footer-links {
 		padding-top: 25px;
 	}
 }
+

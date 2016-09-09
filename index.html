@@ -1,18 +1,38 @@
 ---
-layout: default
+layout: page
+header_image: avatar.jpg
+permalink: /
 ---
 
-<div>
+<section id="portfolio">
+	<div class="container portfolio-text">
 
-  <h1 class="page-header">Posts</h1>
+		<div class="row wow fadeIn">
+			<h2>Portfolio</h2>
+			<hr class="hr-code hr-code-dark">
+		</div>
 
-  <div class="post-list">
-    {% for post in site.posts %}
-      <h3>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h3>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    {% endfor %}
-  </div>
+		<div class="row">
+			<div class="col-xs-12 col-md-6 text-center portfolio-card wow fadeIn">
+				<img class="img-portfolio" src="/public/images/happy-belly-logo.png">
+				<h4>Happy Belly</h4>
+				<p>Mobile app that allows the user to select a diet profile (e.g. nut allergy, lactose intolerance), and then scan the barcode on a food product to see if they can eat it.</p>
+				<p>It is built in Angular/Ionic and has a Rails API back-end.</p>
+				<a class="btn btn-lg" href="http://www.github.com/harrim91/allergy_scanner_frontend" target="_blank">GitHub
+					<i class="fa fa-va fa-arrow-right"></i>
+				</a>
+			</div>
 
-</div>
+			<div class="col-xs-12 col-md-6 text-center portfolio-card wow fadeIn">
+				<img class="img-portfolio" src="/public/images/rails-cleaner-logo.png">
+				<h4>Rails Cleaner</h4>
+				<p>Ruby Gem with command line executables that tracks and deletes all of those annoying unused auto-generated coffee/scss files from your rails projects.</p>
+				<a class="btn btn-lg" href="http://www.github.com/harrim91/rails_cleaner" target="_blank">GitHub
+					<i class="fa fa-va fa-arrow-right"></i>
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+</section>

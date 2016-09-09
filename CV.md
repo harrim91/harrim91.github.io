@@ -2,6 +2,7 @@
 layout: page
 title: CV
 navbar_order: 1
+header_icon: fa-file-o
 permalink: /cv/
 ---
 
