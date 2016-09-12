@@ -1,8 +1,13 @@
 /*
-navy: #00293c;
-blue: #1e656d;
-ivory: #f1f3ce;
-red: #f62a00;
+52
+54
+77
+82
+87
+navy: #00293c; / #20232a;
+blue: #1e656d; / #acbebe;
+ivory: #f1f3ce; / #f4f4ef;
+red: #f62a00; / #a01d26;
 */
 
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans';
@@ -10,13 +15,13 @@ red: #f62a00;
 body {
   min-width: 350px;
   width: auto !important;
-  background-color: #f1f3ce;
+  background-color: #f4f4ef;
   font-family: 'Droid Sans', sans-serif;
-  color: #00293c;
+  color: #20232a;
 }
 
 .navbar-default {
-	background-color: #00293c;
+	background-color: #20232a;
 	border: none;
 }
 
@@ -26,7 +31,7 @@ body {
 
 .navbar-default .navbar-nav,
 .navbar-default .navbar-brand {
-	color: #f1f3ce;
+	color: #f4f4ef;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -35,11 +40,11 @@ body {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-brand:hover {
-	color: #f62a00;	
+	color: #a01d26;	
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #f1f3ce;
+	background-color: #f4f4ef;
 }
 
 .navbar-default .navbar-toggle {
@@ -53,13 +58,13 @@ body {
 
 header {
 	text-align: center;
-	background-color: #f62a00;
-	color: #f1f3ce;
+	background-color: #a01d26;
+	color: #f4f4ef;
 }
 
 header .container {
 	padding-top: 75px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 header img {
@@ -69,18 +74,22 @@ header img {
 }
 
 header .btn {
-	color: #f1f3ce;
-	background-color: #f62a00;
-	border-color: #f1f3ce;
+	color: #f4f4ef;
+	background-color: #a01d26;
+	border-color: #f4f4ef;
 	border-width: 2px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 header .btn:hover {
-	color: #f62a00;
-	background-color: #f1f3ce;
-	border-color: #f62a00;
+	color: #a01d26;
+	background-color: #f4f4ef;
+	border-color: #a01d26;
 	border-width: 2px;
+}
+
+.page-content {
+	padding-top: 10px;
 }
 
 hr.hr-code {
@@ -103,13 +112,13 @@ hr.hr-code:after {
 }
 
 hr.hr-code-light:after {
-	background-color: #f62a00;
-	color: #f1f3ce;
+	background-color: #a01d26;
+	color: #f4f4ef;
 }
 
 hr.hr-code-dark:after {
-	background-color: #f1f3ce;
-	color: #00293c;
+	background-color: #f4f4ef;
+	color: #20232a;
 }
 
 .portfolio-card {
@@ -119,21 +128,19 @@ hr.hr-code-dark:after {
 
 .portfolio-card .btn {
 	margin-top: 10px;
-	color: #f1f3ce;
-	background-color: #00293c;
-	border-color: #00293c;
+	color: #f4f4ef;
+	background-color: #20232a;
+	border-color: #20232a;
 	border-width: 2px;
 }
 
 .portfolio-card .btn:hover {
-	color: #00293c;
-	background-color: #f1f3ce;
-	border-color: #00293c;
+	color: #a01d26;
 	border-width: 2px;
 }
 
-.img-portfolio {
-	background-color: #1e656d;
+.portfolio-card img {
+	background-color: #acbebe;
 	border-radius: 100%;
 	max-height: 100px;
 	max-width: 100px;
@@ -169,18 +176,18 @@ hr.hr-code-dark:after {
 
 
 footer {
-	background-color: #00293c;
+	background-color: #20232a;
 	padding: 30px;
 	margin-top: 30px;
-	box-shadow: 0 500px 0 500px #00293c;
+	box-shadow: 0 500px 0 500px #20232a;
 }
 
 footer a {
-	color: #f1f3ce;
+	color: #f4f4ef;
 }
 
 footer a:hover {
-	color: #f62a00;
+	color: #a01d26;
 	text-decoration: none;
 }
 
@@ -188,7 +195,7 @@ footer .footer-right {
 	height: 75px;
 	float: right;
 	text-align: right;
-	color: #1e656d;
+	color: #acbebe;
 }
 
 footer .footer-left {
@@ -197,13 +204,13 @@ footer .footer-left {
 
 footer .footer-left p {
 	font-size: 12px;
-	color: #1e656d;
+	color: #acbebe;
 }
 
 footer .btn-outline {
-  border: solid 2px #1e656d;
+  border: solid 2px #acbebe;
   font-size: 20px;
-  color: #f1f3ce;
+  color: #f4f4ef;
   background: 0 0;
   transition: all .3s ease-in-out;
 }
@@ -212,7 +219,7 @@ footer .btn-social {
   display: inline-block;
   width: 50px;
   height: 50px;
-  border: 2px solid #1e656d;
+  border: 2px solid #acbebe;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
@@ -220,7 +227,7 @@ footer .btn-social {
 }
 
 footer .btn-social:hover {
-	color: #f62a00;
+	color: #a01d26;
 }
 
 @media (max-width: 768px) {
