@@ -99,4 +99,4 @@ $ tree
 
 If we run `$ shotgun`, then you should see the server start up. If you visit [localhost:9393](http://localhost:9393) in the browser, you should see a nice message from your app.
 
-Now we're all set up and ready to write some feature tests and write some code, which we will do in the [next post](2016/08/21/make-your-own-url-shortener-1.html).
+Now we're all set up and ready to write some feature tests and write some code, which we will do in the next post.

@@ -5,14 +5,12 @@
 
   <body>
 
-    {% include header.html %}
-    <div class="page-content row">
-      <div class="col-xs-1"></div>
-      <div class="container col-xs-10">
-        {{ content }}
-      </div>
-      <div class="col-xs-1"></div>
-    </div>
+
+    {% include navigation.html %}
+    
+  	
+    {{ content }}
+
 
     {% include footer.html %}
 
