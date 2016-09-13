@@ -13,7 +13,7 @@ red: #a01d26;
 @import 'https://fonts.googleapis.com/css?family=Droid+Sans';
 
 body {
-	min-width: 350px;
+	min-width: 320px;
 	width: auto !important;
 	background-color: #f4f4ef;
 	font-family: 'Droid Sans', sans-serif;
@@ -280,6 +280,15 @@ footer .btn-social:hover {
 	header .header-icon {
 		font-size: 150px;
 		margin: 0 auto 20px;
+	}
+
+	hr.hr-code {
+	  max-width: 270px;
+	}
+
+	.skill-card {
+		min-height: 210px;
+		margin-bottom: 0px;
 	}
 
 	.post p {
