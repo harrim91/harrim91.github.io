@@ -14,7 +14,19 @@
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="navbar-link" href="/#about">About</a>  
+          <a class="navbar-link" href="/#about">About</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/#skills">Skills</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/public/Michael-Harrison-CV-2016.pdf" target="_blank">CV</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/#about">Contact</a>
         </li>
         {% assign sorted_pages = site.pages | sort: 'navbar_order' %}
         {% for my_page in sorted_pages %}
