@@ -15,32 +15,20 @@ permalink: /
 		<div class="row">
 			<div class="col-xs-12 col-md-4 text-center about-card wow fadeIn">
 				<h4>Problem Solver</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>A system is only as good as the sum of its parts. A key to solving any problem is the ability to disect a system and understand what each of those parts should do.</p>
+				<p>My undergrad and postgrad studies in Mathematics and Philosophy, two years as a software tester, and my training at Makers Academy have shaped the way I think and given me a strong ability to break problems down, and to quickly grasp and manipulate complex ideas to diagnose and solve problems.</p>
 			</div>
 
 			<div class="col-xs-12 col-md-4 text-center about-card wow fadeIn">
 				<h4>Maker</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>For me, creativity is the ability to experiment. It's the ability to take things apart, understand what each part does, and then to see how you could put those parts together in a new, different order.</p>
+				<p>I love understanding how things work, and I love making things - not just coding, I also make music and wooden spoons in my spare time. My ultimate dream is to make a clock.</p>
 			</div>
 
 			<div class="col-xs-12 col-md-4 text-center about-card wow fadeIn">
-				<h4>Lorem ipsum</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h4>Craftsman</h4>
+				<p>At Makers Academy, I had best practices and XP principles drilled into me from the start. I am always keen to try new things and getting stuck doesn't phase me - I see challenges as opportunities to broaden my understanding.</p>
+				<p>I am at the start of my craftsmanship journey, and as such try to participate in the software community as much as possible. I attend meetups and contribute to open-source projects, as well as regularly coaching at <a href="http://www.codebar.io" target="_blank">Codebar</a>.</p>
 			</div>
 		</div>		
 	</section>
@@ -73,6 +61,18 @@ permalink: /
 				<p>Ruby Gem with command line executables that tracks and deletes all of those annoying unused auto-generated coffee/scss files from your Rails projects.</p>
 				<p>Available for download on RubyGems.</p>
 				<a class="btn btn-lg" href="http://www.github.com/harrim91/rails_cleaner" target="_blank">GitHub
+					<i class="fa fa-va fa-arrow-right"></i>
+				</a>
+			</div>
+
+			<div class="col-xs-12 col-md-6 text-center portfolio-card wow fadeIn">
+				<div class="image-container">
+					<i class="fa fa-fw fa-trash-o"></i>
+				</div>
+				<h4>Instascam</h4>
+				<p>Instagram clone build in Rails</p>
+				<p>Uses Bootstrap, AWS, Devise and is hosted on Heroku.</p>
+				<a class="btn btn-lg" href="http://www.github.com/harrim91/instagram_clone" target="_blank">GitHub
 					<i class="fa fa-va fa-arrow-right"></i>
 				</a>
 			</div>
@@ -162,6 +162,22 @@ permalink: /
 
 	</section>
 
-	<section id="contact"></section>
+	<section id="contact">
+		<div class="row wow fadeIn">
+			<h2>Contact</h2>
+			<hr class="hr-code hr-code-dark">
+		</div>
+
+		<div class="row">
+			<a rel="nofollow" href="phone:{{site.phone}}" class="hidden-md hidden-lg btn-social btn-outline"><i class="fa fa-fw fa-phone"></i></a>
+
+			<a rel="nofollow" href="mailto:{{site.email}}" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
+
+			{% for profile in site.social_media %}
+				<a rel="nofollow" href="{{profile[1].url}}{{profile[1].username}}" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw {{profile[1].fa-icon}}"></i></a>
+			{% endfor %}
+
+		</div>
+	</section>
 
 </div>
