@@ -8,6 +8,7 @@
 # Site settings
 title: "Michael Harrison"
 email: "hello@michaelharrison.party"
+phone: +447812817307
 description: > # this means to ignore newlines until the next setting
   Web Developer & Wooden Spoon Aficionado.
 # baseurl: "/" # the subpath of your site, e.g. /blog

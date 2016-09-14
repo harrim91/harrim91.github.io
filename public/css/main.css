@@ -148,6 +148,7 @@ section::before {
 
 .portfolio-card {
 	min-height: 300px;
+	padding: 0;
 }
 
 .skill-card {
@@ -169,11 +170,11 @@ section::before {
 
 .portfolio-card img,
 .skill-card img {
+	margin: auto;
 	background-color: #acbebe;
 	border-radius: 100%;
 	max-height: 100px;
 	max-width: 100px;
-	/*padding: 10px;*/
 }
 
 .portfolio-card .image-container i {
@@ -183,6 +184,48 @@ section::before {
 	height: 100px;
 	width: 100px;
 	padding-top: 15px;
+}
+
+.slick-arrow {
+	font-size: 40px;
+	min-height: 300px;
+	position: relative;
+}
+
+.slick-arrow i {
+	position: absolute;
+	bottom: 30%;
+}
+
+.slick-next i {
+	left: 50%;
+}
+
+.slick-prev i {
+	right: 50%;
+}
+
+#contact .btn-outline {
+	border: solid 2px #acbebe;
+	color: #20232a;
+	background-color: #acbebe;
+	transition: all .3s ease-in-out;
+	margin: 0 15px;
+}
+
+#contact .btn-social {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #acbebe;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 40px;
+	line-height: 90px;
+}
+
+footer .btn-social:hover {
+	color: #a01d26;
 }
 
 /*POSTS*/
@@ -271,6 +314,12 @@ footer .btn-social:hover {
 	color: #a01d26;
 }
 
+@media (max-width: 992px) {
+	.slick-arrow {
+		font-size: 20px;
+	}
+}
+
 @media (max-width: 768px) {
 
 	header .container {
@@ -289,6 +338,21 @@ footer .btn-social:hover {
 	.skill-card {
 		min-height: 210px;
 		margin-bottom: 0px;
+	}
+
+	.quote-card {
+		padding-bottom: 15px;
+	}
+
+	#contact .btn-outline {
+		margin: 0 5px;
+	}
+
+	#contact .btn-social {
+		width: 50px;
+		height: 50px;
+		font-size: 20px;
+		line-height: 45px;
 	}
 
 	.post p {
