@@ -1,9 +1,4 @@
 /*
-52
-54
-77
-82
-87
 navy: #20232a;
 blue: #acbebe;
 white: #f4f4ef;
@@ -235,7 +230,9 @@ footer .btn-social:hover {
 }
 
 .post-content {
-	padding-top: 10px;
+	padding-top: 20px;
+	padding-left: 12%;
+	padding-right: 13%;
 }
 
 .post-content ul {
@@ -357,6 +354,11 @@ footer .btn-social:hover {
 
 	.post p {
 		clear: both;
+	}
+
+	.post-content {
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 
 	.img-container {
