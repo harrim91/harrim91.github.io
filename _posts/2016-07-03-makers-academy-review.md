@@ -33,9 +33,9 @@ Then you go and spend the weekend making an application by yourself, which reall
 Then you multiply that learning by 12, and by the time you finish, you really know a lot.
 
 Languages, frameworks and testing frameworks I've covered in the last 3 months include:
-   - Ruby, JavaScript, and SQL.
-   - Sinatra, Rails, AngularJS, Ionic.
-   - RSpec & Capybara, Jasmine, Karma & Protractor.
+- Ruby, JavaScript, and SQL.
+- Sinatra, Rails, AngularJS, Ionic, Cordova.
+- RSpec & Capybara, Jasmine, Karma & Protractor.
 
  For our final project, [Happy Belly](https://github.com/harrim91/allergy_scanner_frontend) we made an Ionic/Angular mobile application (which we had never done before) with a barcode scanner (which we had never done before) and we also built a [decoupled rails api](https://github.com/harrim91/allergy_scanner_backend) (we'd used rails before, but we'd never built an API before). But 11 weeks in, we just took it all in our stride. :pineapple:
 
@@ -80,4 +80,4 @@ Yoga has a similarly theraputic effect, and was one of the biggest surprises for
 It's been a really positive feeling to see myself progressing personally on so many levels (particularly physically with the yoga, I have to admit). I'm a better, more open person, and more receptive to criticism. I've made incredible friends, people who I'm possibly going to know for the rest of my life/career. I feel my mind and body are both stronger and more balanced, and I generally just feel happy and confident, and excited to move forward with my life.
 
 ## TL;DR
-I would recommend the course to anybody. :100:
+I would recommend the course to anybody. :ok_hand: :100:
