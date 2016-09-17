@@ -33,9 +33,17 @@ Then you go and spend the weekend making an application by yourself, which reall
 Then you multiply that learning by 12, and by the time you finish, you really know a lot.
 
 Languages, frameworks and testing frameworks I've covered in the last 3 months include:
-- Ruby, JavaScript, and SQL.
-- Sinatra, Rails, AngularJS, Ionic, Cordova.
-- RSpec & Capybara, Jasmine, Karma & Protractor.
+<ul>
+	<li>
+		Ruby, JavaScript, and SQL.
+	</li>
+	<li>
+		Sinatra, Rails, AngularJS, Ionic, Cordova.
+	</li>
+	<li>
+		RSpec & Capybara, Jasmine, Karma & Protractor.
+	</li>
+</ul>
 
  For our final project, [Happy Belly](https://github.com/harrim91/allergy_scanner_frontend) we made an Ionic/Angular mobile application (which we had never done before) with a barcode scanner (which we had never done before) and we also built a [decoupled rails api](https://github.com/harrim91/allergy_scanner_backend) (we'd used rails before, but we'd never built an API before). But 11 weeks in, we just took it all in our stride. :pineapple:
 
