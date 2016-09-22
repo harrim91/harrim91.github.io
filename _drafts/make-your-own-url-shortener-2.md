@@ -22,6 +22,14 @@ First off, we're going to write a feature test for the, umm, feature. This basic
 <figure>
 	<figcaption>/spec/features/submitting_url_spec.rb</figcaption>
 	{% highlight ruby %}
-
+		feature 'Submitting URL' do
+			it 'saves the URL' do
+				visit '/'
+				within 'form#form-url' do
+					fill_in :'field-url', with: 'http://www.google.com'
+					expect{ click_button 'Shorten URL' }.to change(ShortURL, :count).by 1
+				end
+			end
+		end
 	{% endhighlight %}
 </figure>
