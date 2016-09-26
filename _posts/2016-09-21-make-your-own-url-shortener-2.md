@@ -27,11 +27,13 @@ MVC stands for Model-View-Controller. This architecture breaks your application 
 
  - The **View** layer represents data to the client, in whatever way you see fit to do so. It isn't concerned with how the data is structured or stored, it just wants the data so it can manipulate it and represent it.
 
- - The **Controller** layer is sort of like the middle man. It handles the passing of messages from the model to the view. 
+ - The **Controller** layer is sort of like the middle-man. In its middle-man role, it creates a clear separation between the logic layer of the application (the model) and the presentational layer (the view). But beyond this, it it also where you *control* the flow of data through your application. It is responsible for handling the passing of messages between the model and the view.
 
-## Returning a short URL
+ Hopefully that gives some high level explanation of the architecture we're aiming for, what each layer does, and how it allows for a separation of concerns in our code. Hopefully it will also become clearer as we actually build the application. 
 
-First off, we're going to write a feature test for the, umm, feature. This basically describes the expected behavior of the application when the user interacts with it. So create a new file at `/spec/features/submitting_url_spec.rb` with the following code:
+## Saving a URL
+
+First off, we're going to write a feature test for the, umm, feature. Feature tests are high-level tests that basically describe the expected behavior of the application when the user interacts with it. So create a new file at `/spec/features/submitting_url_spec.rb` with the following code:
 
 <figure>
 	<figcaption>/spec/features/submitting_url_spec.rb</figcaption>
@@ -62,6 +64,8 @@ The error message should say that we don't have a form with an ID of "form-url".
 ```
 That makes sense. So to fix it, we're obviously gonna have to make a form.
 
+### Creating a view
+
 To do this, I'm gonna use [HAML](http://http://haml.info/), which is a nice markup language for writing HTML templates.
 
 First we're gonna have to install HAML, which is as simple as adding `gem 'haml'` to our Gemfile and running `$ bundle`.
@@ -83,24 +87,57 @@ Now we have to make a `views/index.haml` file, which will be the homepage for ou
   {% endhighlight %}
 </figure>
 
-This is a HTML page with a header and a form containing all of the components we've specified in our test. So what happens if we run `rspec` again?
+This is a HTML page with a header and a form containing all of the components we've specified in our test. So what happens if we run `$ rspec` again?
 
-Aghh! The same error! Let's take a look at the application ourselves, to see what's actually happening. Run `shotgun` and then visit `localhost:9393` in your browser.
+Aghh! The same error! Let's take a look at the application ourselves, to see what's actually happening. Run `$ shotgun` and then visit `localhost:9393` in your browser. You should just see a basic greeting message on the screen. 
 
-You should just see a basic greeting message on the screen. If you look at `app.rb`, you can see the follwoing code that was automatically generated when we set up the application:
+### Controller Logic - Rendering a View
+
+If you look at `app.rb`, you can see the following code that was automatically generated when we set up the application:
 
 <figure>
 	<figcaption>app.rb</figcaption>
 	{% highlight ruby %}
 ...
-get '/' do
-  'Hello URLShortener!'
-end
+  get '/' do
+    'Hello URLShortener!'
+  end
 ...
   {% endhighlight %}
 </figure>
 
-This is an _application route_: It tells our application how to deal with a particular [HTTP request](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177). In this case, it tells our application that when it receives a GET request made to the '/' path, it should respond with the string 'Hello URLShortener'. And that's exactly what's happened.
+This is an _application route_: It tells our application how to deal with a particular [HTTP request](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177). This is part of the controller layer of our application.
+
+In this case, it tells our application that when it receives a GET request made to the '/' path, it should return the string 'Hello URLShortener' to the client. And that's exactly what's happened.
 
 What we want to happen, however, is for the application to respond with the HAML file we created earlier.
 
+To do that, we need to tell the application to return that file, and that the file in question should be rendered as HAML:
+
+<figure>
+  <figcaption>app.rb</figcaption>
+  {% highlight ruby %}
+...
+  get '/' do
+    haml :index
+  end
+...
+  {% endhighlight %}
+</figure>
+
+If you run `$ shotgun` again, you should see the form being rendered. It's not very pretty, but it's there.
+
+Sinatra supports a number of templating engines like HAML, and by default it looks for a `views` directory to find the file to render. In this case, we've just told it to look in our `app/views` directory for a HAML file called `index`.
+
+Run `$ rspec` again, and lets see what happens...You shold get another error message, reading something like this:
+
+```
+Failure/Error: expect{ click_button 'Shorten URL' }.to change(ShortURL, :count).by 1
+
+ NameError:
+   uninitialized constant ShortURL
+```
+
+What's all that about then?
+
+### Defining a model
