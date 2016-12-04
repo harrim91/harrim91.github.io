@@ -3,7 +3,7 @@ layout: post
 title: "TDD your own URL Shortener: Saving shortened URL's"
 date: 2016-08-22 12:00:00 +0000
 tags: ruby, sinatra, tutorial, mvc, tdd, database, postgreSQL
-published: true
+published: false
 ---
 
 In [Part 1](/2016/08/21/make-your-own-url-shortener-1.html) of this tutorial, we covered setting up a basic web application with Sinatra, using [RSpec](https://www.relishapp.com/rspec) and [Capybara](https://github.com/jnicklas/capybara) to test.

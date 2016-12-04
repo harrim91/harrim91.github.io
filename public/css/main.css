@@ -47,11 +47,6 @@ body {
 	border: none;
 }
 
-.header-title {
-	margin: 0 10px 20px;
-	text-decoration: none;
-}
-
 header {
 	text-align: center;
 	background-color: #a01d26;
@@ -67,6 +62,15 @@ header img {
 	margin: 25px auto 20px;
 	border-radius: 100%;
 	height: auto;
+}
+
+header .header-title {
+	margin: 0 10px 20px;
+	text-decoration: none;
+}
+
+header .header-subtitle {
+	padding-bottom: 15px;
 }
 
 header a,

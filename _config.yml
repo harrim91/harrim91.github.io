@@ -12,7 +12,7 @@ phone: +447812817307
 description: > # this means to ignore newlines until the next setting
   Web Developer & Wooden Spoon Aficionado.
 # baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://michaelharrison.party" # the base hostname & protocol for your site
+url: "michaelharrison.party" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
