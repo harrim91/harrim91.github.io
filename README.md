@@ -1,1 +1,1 @@
-Personal blog using Jekyll.
+Personal site.
